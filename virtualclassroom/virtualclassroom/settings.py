@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'classroom',
     'jwtauth',
+    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
