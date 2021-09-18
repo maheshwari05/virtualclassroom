@@ -1,1 +1,2 @@
-web: gunicorn virtualclassroom.wsgi
+web: gunicorn virtualclassroom.wsgi --log-file -
+
